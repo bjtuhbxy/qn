@@ -11,4 +11,9 @@ public class Hello {
 		System.out.println("hello");
 		return "success";
 	}
+	@RequestMapping("/about")
+	public String about() {
+		System.out.println("about");
+		return "about";
+	}
 }
